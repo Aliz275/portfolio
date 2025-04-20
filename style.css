@@ -8,23 +8,45 @@ body {
   
   h1 {
     color: #2c3e50;
-    font-size: 3em;
+    font-size: 2.5em;
   }
   
   p {
     font-size: 1.2em;
     color: #555;
+    margin-bottom: 30px;
   }
   
   a {
     display: inline-block;
     margin: 12px;
+    padding: 10px 20px;
     text-decoration: none;
-    color: #3498db;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
     font-weight: bold;
+    transition: 0.3s;
   }
   
   a:hover {
-    text-decoration: underline;
+    background-color: #2980b9;
+  }
+  
+  /* 📱 Mobile Responsiveness */
+  @media screen and (max-width: 600px) {
+    body {
+      padding: 40px 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    a {
+      display: block;
+      margin: 10px auto;
+      width: 80%;
+    }
   }
   
