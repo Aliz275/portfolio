@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    text-align: center;
+    padding: 60px 20px;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    font-size: 3em;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  a {
+    display: inline-block;
+    margin: 12px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
